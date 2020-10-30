@@ -1,0 +1,99 @@
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+.navbar {
+  font-family: 'Hammersmith One', sans-serif;
+  background-color: white;
+  height: 200px;
+}
+.navbar-brand {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+  margin-left: 40px;
+}
+.head {
+  margin: 0 0 10px;
+}
+
+h1 {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 10px;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 25px;
+}
+
+p.about {
+  font-size: 25px;
+  letter-spacing: 1.8px;
+  margin-left: 40px;
+}
+
+p.aboutme1 {
+  font-size: 15px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+p.aboutme2 {
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 0;
+}
+
+.resume {
+  margin-left: 10px;
+  margin-top: 40px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.resume:hover {
+  color: red;
+}
+
+a:visited {
+  color: black;
+}
+
+.container {
+  margin: center;
+}
+
+.skill {
+  text-align: center;
+}
+
+.social_icons {
+  text-align: center;
+}
+
+.fa {
+  margin: 40px 5px 5px 5px;
+  text-rendering: auto;
+  cursor: pointer;
+  color: red;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+footer {
+  font-size: 3px;
+  color: gray;
+  margin-left: 40px;
+  display: block;
+}
+
+.navbar-toggler .collapse {
+  margin-right: 20px;
+}
