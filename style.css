@@ -4,7 +4,7 @@
 .navbar {
   font-family: 'Hammersmith One', sans-serif;
   background-color: white;
-  height: 200px;
+  font: 14px;
 }
 .navbar-brand {
   font-family: 'Hammersmith One', sans-serif;
