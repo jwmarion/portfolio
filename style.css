@@ -32,6 +32,10 @@ p {
   font-size: 25px;
 }
 
+section {
+  margin: 150 0 150 0;
+}
+
 p.about {
   font-size: 25px;
   letter-spacing: 1.8px;
@@ -65,11 +69,17 @@ a:visited {
 }
 
 .container {
-  margin: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.row {
+  align-content: center;
 }
 
 .skill {
   text-align: center;
+  size: 50px;
 }
 
 .social_icons {
@@ -85,6 +95,10 @@ a:visited {
 
 .fa-2x {
   font-size: 2em;
+}
+
+i {
+  font-size: 100px;
 }
 
 footer {
