@@ -22,8 +22,7 @@
     ></script>
     <meta name="author" content="Dasom Huber">
     <title>Dasom| Developer |ATL</title>
-    
-    <nav class="navbar fixed-top navbar-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <a class="navbar-brand" href="#">Dasom An Huber</a>
       <button
         class="navbar-toggler"
@@ -42,11 +41,12 @@
         style="justify-content: right"
       >
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item active"></li>
+          <li class="nav-item">
             <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projcts">PROJECTS</a>
+            <a class="nav-link" href="#project">PROJECTS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#skill">SKILL</a>
@@ -59,8 +59,9 @@
     </nav>
   </head>
   <body>
+    <div class="container_fluid">
     <section id="about" class="about">
-      <div class="container-fluid content">
+      <div class="container_fluid content">
         <div class="row">
           <div class="col-md-6 about">
             <p class="about">
@@ -88,6 +89,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <hr />
     <section id="projects">
@@ -113,27 +115,22 @@
             <a href="#">MemoryCardGame</a>
         </div>
         <div class="col-md">
-          <video width="320" height="240" class="row" controls>
-            <source class="center-block"
-            src="./Files/sugar_oppa.mp4"
-            alt="Sugar">
-          </video>
-          <a class="project_A"href="https://github.com/DasomAnH/full-stack-project-1">Sugar_Oppa</a>
-        </div>
-          <div class="col-md">
-            <video width="320" height="240" class="row" controls>
-              <source class="center-block"
-              src="./Files/Dine_in_Doggo.mp4"
-              alt="Dine">
-            </video>
-            <a href="https://github.com/DasomAnH/front-end-project">Dine_in Doggo</a>
+          <div class="projects_square_background">
+            <img src="./Files/sugar.png" alt="sugar">
+            <a href="./Project/sugar.html">Sugar_Oppa</a>
+          </div>
+          </div>
+        <div class="col-md">
+          <div class="projects_square_background">
+            <img src="./Files/Dine.png" alt="dine">
+            <a href="./Project/dine.html">Dine_in Doggo</a>
+          </div>
           </div>
           <div class="col-md">
             <div class="projects_square_background">
-              <img src="./Files/shmup.png" alt="">
-              <a href="https://github.com/DasomAnH/pygame-shmup">PYGAME</a>
+              <img src="./Files/shmup.png" alt="pygame">
+              <a href="./Project/pygame.html">PYGAME</a>
             </div>
-
           </div>
         </div>
       </div>
