@@ -1,3 +1,5 @@
+/*head*/
+
 .navbar .navbar-nav {
   margin-left: auto;
 }
@@ -16,18 +18,21 @@
   background-color: white;
 }
 
-h1 {
+h1,
+h2 {
   font-family: 'Hammersmith One', sans-serif;
-  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-family: 'Gothic A2', sans-serif;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.container_fluid {
-  margin-top: 150px;
-  background-color: white;
-}
-
+/*about*/
 p {
   display: block;
   margin-block-start: 1em;
@@ -35,12 +40,13 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   margin-left: 10px;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gothic A2', sans-serif;
   font-size: 25px;
 }
-
-section {
-  margin: 150 0 150 0;
+.container_fluid {
+  margin-top: 150px;
+  background-color: white;
+  margin-left: 40px;
 }
 
 p.about {
@@ -76,39 +82,86 @@ a:visited {
   color: black;
 }
 
-.container {
-  text-align: center;
-  margin-top: 150px;
-  margin-bottom: 180px;
+/*Project*/
+
+.project_square_images {
+  width: 100%;
+}
+.project_square_images:hover,
+p:hover {
+  opacity: 0.6;
 }
 
-.card {
+.project_square {
+  padding: 10px;
   margin: 0 auto;
-  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.project_square_background {
   background-color: black;
-  font-family: 'Gothic A1', sans-serif;
-  font-size: 18px;
-  letter-spacing: 1.8px;
-  color: white;
+  /* this stuff centers the project text in the middle of the square */
+  position: relative;
+  overflow: hidden;
 }
 
-.card-body {
-  text-align: right;
-  letter-spacing: 1.8px;
+.project_container {
+  /* padding must be 15 px minus padding on the project square */
+  padding: 15px;
+  margin: 0 auto;
 }
 
-.card-text {
-  font-family: 'Gothic A1', sans-serif;
-  font-size: 18px;
-  color: white;
+.project_text {
+  opacity: 0.5;
+  text-align: center;
+  vertical-align: middle;
+  color: red;
+  font-weight: 800;
+  letter-spacing: 3px;
+  /* this centers the project text in the middle of the square */
+  position: absolute;
+  margin-top: 50%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 20 0 20;
 }
 
-.btn {
-  border: solid gray 4px;
+/*Skill*/
+i {
+  font-size: 50px;
+}
+.skillListContainer .skillTitle:first-child {
+  margin-top: 100;
 }
 
-.row {
-  align-content: center;
+.skills-icon-description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skillTitle {
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+.col-md-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-flow: row;
+}
+
+.box-wrapper {
+  text-align: center;
+  font-family: 'Gothic A2', sans-serif;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+  flex-flow: column;
 }
 
 .skill {
@@ -116,14 +169,37 @@ a:visited {
   size: 50px;
 }
 
-img {
-  height: 295px;
-  width: 295px;
+/*contact*/
+.Contact_container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
 }
-
 .social_icons {
   text-align: center;
   margin-bottom: 150px;
+}
+
+/* .container_fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 40px 40px 40px;} */
+
+.card-body {
+  text-align: right;
+  letter-spacing: 1.8px;
+}
+
+.btn {
+  border: solid gray 4px;
+}
+
+img {
+  height: 295px;
+  width: 295px;
 }
 
 .fa {
@@ -137,17 +213,11 @@ img {
   font-size: 2em;
 }
 
-i {
-  font-size: 100px;
-}
-
+/*footer*/
 footer {
   font-size: 3px;
   color: gray;
   margin-left: 40px;
-  display: block;
-}
-
-.navbar-toggler .collapse {
-  margin-right: 20px;
+  margin-top: 50px;
+  text-align: center;
 }

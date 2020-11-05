@@ -9,7 +9,10 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Hammersmith+One&display=swap"
       rel="stylesheet"
@@ -20,7 +23,7 @@
       src="https://kit.fontawesome.com/0af1d80857.js"
       crossorigin="anonymous"
     ></script>
-    <meta name="author" content="Dasom Huber">
+    <meta name="author" content="Dasom Huber" />
     <title>Dasom| Developer |ATL</title>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <a class="navbar-brand" href="#">Dasom An Huber</a>
@@ -59,116 +62,205 @@
     </nav>
   </head>
   <body>
-    <div class="container_fluid">
+    <!-- about -->
     <section id="about" class="about">
-      <div class="container_fluid content">
-        <div class="row">
-          <div class="col-md-6 about">
-            <p class="about">
-              Hi, I'm Dasom. I'm a fullstack developer living in ATL. I love
-              art, programming, and swimming.
-            </p>
-            <p class="aboutme2">
-              Check out my projects or CV to get to know me, or email and say
-              hi. I am open to hearing about new opportunities.
-            </p>
-          </div>
-          <div class="col-md-6 about">
-            <div>
-              <p class="aboutme1">
-                I've been studying in software development since 2018. Most
-                recently I graduated from Digital Crafts coding boot camp. I
-                focused on front end development and UX. Before that, I
-                participated in 2004 olympics as an artistic swimmer. In my
-                spare time, I'm enjoying music and art.
+      <div class="container_fluid">
+        <div class="container_fluid content">
+          <div class="row">
+            <div class="col-md-6 about">
+              <p class="about">
+                Hi, I'm Dasom. I'm a fullstack developer living in ATL. I love
+                art, programming, and swimming.
+              </p>
+              <p class="aboutme2">
+                Check out my projects or resume to get to know me, or email and
+                say hi. I am open to hearing about new opportunities.
               </p>
             </div>
-            <div>
-              <a class="resume" href="./Files/dasomResume2020.pdf" target="_blank" >RESUME</a>
+            <div class="col-md-6 about">
+              <div>
+                <p class="aboutme1">
+                  I've been studying in software development since 2018. Most
+                  recently I graduated from Digital Crafts coding boot camp. I
+                  focused on front end development and UX. Before that, I
+                  participated in 2004 olympics as an artistic swimmer. In my
+                  spare time, I'm enjoying music and art.
+                </p>
+              </div>
+              <div>
+                <a
+                  class="resume"
+                  href="./Files/dasomResume2020.pdf"
+                  target="_blank"
+                  >RESUME</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
     <hr />
+    <!-- PROJECTS -->
     <section id="projects">
-      <div class="container">
       <h1>PROJECTS</h1>
-        <div class="row">
-          <div class="col-md">
-            <img width="320" height="240" class="row" control class="center-block"
-              src="./Files/black.jpg"
-              alt="Capstone">
-            <a href="#">Capstone</a>
-        </div>
-          <div class="col-md">
-            <img width="320" height="240" class="row" control class="center-block"
-            src="./Files/black.jpg"
-              alt="Card">
-            <a href="#">ReactSolo</a>
-        </div>
-        <div class="col-md">
+      <div class="project_container d-flex flex-row">
+        <div class="col-md-4 col-lg-2 project_square">
           <div class="projects_square_background">
-            <img src="./Files/card.png" alt="card">
-            <a href="./Project/card.html">MemoryCardGame</a>
-          </div>
+            <a href="./Project/card.html">
+              <img
+                src="./Files/card.png"
+                class="project_square_images"
+                alt="card"
+              />
+              <p class="project_text">MemoryCardGame</p>
+            </a>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md-4 col-lg-2 project_square">
           <div class="projects_square_background">
-            <img src="./Files/sugar.png" alt="sugar">
-            <a href="./Project/sugar.html">Sugar_Oppa</a>
+            <a href="./Project/sugar.html">
+              <img
+                src="./Files/sugar.png"
+                class="project_square_images"
+                alt="card"
+              />
+              <p class="project_text">Sugar_Oppa</p>
+            </a>
           </div>
-          </div>
-        <div class="col-md">
+        </div>
+        <div class="col-md-4 col-lg-2 project_square">
           <div class="projects_square_background">
-            <img src="./Files/Dine.png" alt="dine">
-            <a href="./Project/dine.html">Dine_in Doggo</a>
+            <a href="./Project/card.html">
+              <img src="./Files/Dine.png" class="project_square_images" />
+              <p class="project_text">Dine_In Doggos</p>
+            </a>
           </div>
+        </div>
+        <div class="col-md-4 col-lg-2 project_square">
+          <div class="projects_square_background">
+            <a href="./Project/pygame.html">
+              <img src="./Files/Shmup.png" class="project_square_images" />
+              <p class="project_text">Shmup!</p>
+            </a>
           </div>
-          <div class="col-md">
-            <div class="projects_square_background">
-              <img src="./Files/shmup.png" alt="pygame">
-              <a href="./Project/pygame.html">PYGAME</a>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- skill -->
+    <section id="skill">
+      <h1>SKILL</h1>
+      <div class="box-wrapper row col sm-8 col-sm-offset-2 d-flex skillList">
+        <h2 class="skillTitle">Front-End</h2>
+        <div class="col-md-12 col-xs-12 skillContainer">
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-html5-plain colored"></i>
+            <h5 class="skills-icon-description">HTML5</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-css3-plain"></i>
+            <h5 class="skills-icon-description">CSS3</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-javascript-plain colored"></i>
+            <h5 class="skills-icon-description">JavaScript</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-yarn-plain colored"></i>
+            <h5 class="skills-icon-description">Yarn</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-react-original-wordmark colored"></i>
+            <h5 class="skills-icon-description">React</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-jquery-plain-wordmark colored"></i>
+            <h5 class="skills-icon-description">Jquery</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-bootstrap-plain colored"></i>
+            <h5 class="skills-icon-description">Bootstrap</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-babel-plain colored"></i>
+            <h5 class="skills-icon-description">Babel</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 box-col">
+            <i class="devicon-photoshop-line"></i>
+            <h5 class="skills-icon-description">PhotoShop</h5>
+          </div>
+        </div>
+        <div class="box-wrapper row col sm-8 col-sm-offset-2 skillList">
+          <h2 class="skillTitle">Back-End</h2>
+          <div class="col-md-12 col-xs-12 skillContainer">
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-postgresql-plain colored"></i>
+              <h5 class="skills-icon-description">Postgresql</h5>
+            </div>
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-express-original colored skillsIcon"></i>
+              <h5 class="skills-icon-description">Express</h5>
+            </div>
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-npm-original-wordmark colored"></i>
+              <h5 class="skills-icon-description">NPM</h5>
+            </div>
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-nodejs-plain colored skillsIcon"></i>
+              <h5 class="skills-icon-description">Node.Js</h5>
+            </div>
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-python-plain colored"></i>
+              <h5 class="skills-icon-description">Python</h5>
+            </div>
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-heroku-original colored skillsIcon"></i>
+              <h5 class="skills-icon-description">Heroku</h5>
+            </div>
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-sequelize-plain colored"></i>
+              <h5 class="skills-icon-description">Sequelize</h5>
+            </div>
+          </div>
+        </div>
+        <div class="box-wrapper row col sm-8 col-sm-offset-2 skillList">
+          <h2 class="skillTitle">Development Tool</h2>
+          <div class="col-md-12 col-xs-12 skillContainer">
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-visualstudio-plain colored"></i>
+              <h5 class="skills-icon-description">Visual Studio</h5>
+            </div>
+            <div class="col-md-3 col-xs-6 box-col">
+              <i class="devicon-github-plain colored"></i>
+              <h5 class="skills-icon-description">Github</h5>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-  
-    <hr />
-    <section id="skill" class="skill">
-      <div class="container">
-        <h1>SKILL</h1>
-        <i class="devicon-html5-plain colored"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-git-plain colored"></i>
-        <i class="devicon-github-plain colored"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-python-plain colored"></i>
-        <i class="devicon-react-original-wordmark colored"></i>
-        <i class="devicon-visualstudio-plain colored"></i>
-        <i class="devicon-jquery-plain-wordmark colored"></i>
-        <i class="devicon-yarn-plain colored"></i>
-        <i class="devicon-postgresql-plain colored"></i>
-        <i class="devicon-babel-plain colored"></i>
-        <i class="devicon-nodejs-plain-wordmark"></i>
-        <i class="devicon-npm-original-wordmark colored"></i>
-        <i class="devicon-bootstrap-plain colored"></i>
-        <i class="devicon-photoshop-line"></i>    
-        </div>
     </section>
     <hr />
+    <!-- CONTACT -->
     <section id="contact" class="sec-contact">
-      <div class="container">
-        <h1 class="massive_header" style="font-size: 40px;">Dasom says, Hello!</h1>
+      <h1 class="massive_header" style="font-size: 40px">Dasom says, Hello!</h1>
+      <div class="Contact_container">
         <div class="social_icons social">
-          <a class="fa fa-envelope fa-2x" href="mailto:dasom.huber@gmail.com"></a>
-          <a class="fa fa-twitter fa-2x" href="https://twitter.com/dasom_huber"></a>
-          <a class="fa fa-linkedin fa-2x" href="https://www.linkedin.com/in/dasomhuber"></a>
-          <a class="fa fa-github-alt fa-2x" href="https://github.com/DasomAnH"></a>
+          <a
+            class="fa fa-envelope fa-2x"
+            href="mailto:dasom.huber@gmail.com"
+          ></a>
+          <a
+            class="fa fa-twitter fa-2x"
+            href="https://twitter.com/dasom_huber"
+          ></a>
+          <a
+            class="fa fa-linkedin fa-2x"
+            href="https://www.linkedin.com/in/dasomhuber"
+          ></a>
+          <a
+            class="fa fa-github-alt fa-2x"
+            href="https://github.com/DasomAnH"
+          ></a>
         </div>
       </div>
     </section>
